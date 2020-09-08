@@ -1,9 +1,12 @@
 # AI_Mushroom_App
-AI Mushroom App final code(JAVA)
+
+## AI Mushroom App final code(JAVA)
 
 ### 0. SplashActivity
 
-![mush_splashact](https://user-images.githubusercontent.com/70942492/92481858-e4853880-f221-11ea-9f0c-566a2964399a.png)
+
+
+<img src="![mush_splashact](https://user-images.githubusercontent.com/70942492/92481858-e4853880-f221-11ea-9f0c-566a2964399a.png)" width="10%">
 
 ### 1. MainActivity
 
