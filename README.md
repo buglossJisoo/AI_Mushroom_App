@@ -6,7 +6,7 @@
 
 
 
-<img src="C:\Users\tenpt\Desktop\mush_splashact.png" width="40%">
+<img src="./Users/tenpt/Desktop/mush_splashact.png" width="40%">
 
 ### 1. MainActivity
 
