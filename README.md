@@ -50,6 +50,7 @@ If you click this button, InstructionActivity can be shown below.
 ### 6. SettingsActivity
 
 If you click this button, SettingsActivity can be shown below.
+
 ![mush_settingsbtn](https://user-images.githubusercontent.com/70942492/92486182-c241e980-f226-11ea-95b4-891bbfd0b907.PNG)
 
 ![mush_settings](https://user-images.githubusercontent.com/70942492/92486211-c968f780-f226-11ea-9f0d-533bd6f96b5a.PNG)
