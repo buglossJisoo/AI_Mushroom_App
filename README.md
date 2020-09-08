@@ -6,7 +6,15 @@
 
 <img src = "https://user-images.githubusercontent.com/70942492/92484959-4e531180-f225-11ea-8aa8-88ae3cf8282d.png" width="50%" height="50%">
 
-### 1. MainActivity
+### 1. MainActivity has 5 buttons
+
+#### MainActivity is comprised of five buttons.
+
+* Button 1. Take the photo of mushroom
+* Button 2. Five Mushrooms Quizzes
+* Button 3. Korea Mushroom Map
+* Button 4. User Guide
+* Button 5. Settings
 
 <img src = "https://user-images.githubusercontent.com/70942492/92482213-53fb2800-f222-11ea-8af9-e4c211962b23.png" width="50%" height="50%">
 
