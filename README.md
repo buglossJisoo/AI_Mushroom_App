@@ -6,7 +6,6 @@
 
 ![mush_splashact](https://user-images.githubusercontent.com/70942492/92484959-4e531180-f225-11ea-8aa8-88ae3cf8282d.png)
 
-<img src = "file:///C:/Users/tenpt/Desktop/mush_splashact.png" width="40%"
 
 ### 1. MainActivity
 
