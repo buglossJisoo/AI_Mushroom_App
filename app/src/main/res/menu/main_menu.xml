@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title=""
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_subactivity"
+        android:title="AI버섯어플 이용 동의 안내"/>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "419269379512",
+    "firebase_url": "https://mushroom-3c972.firebaseio.com",
+    "project_id": "mushroom-3c972",
+    "storage_bucket": "mushroom-3c972.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419269379512:android:627764f69cba5b9f5bfb4d",
+        "android_client_info": {
+          "package_name": "com.android.tensor2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419269379512-u6tk3s1sudkpomvifcr9ivg3ke5g0s29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB28XcbVE-BznhGMgG52Twssv8sIMuNwZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419269379512-u6tk3s1sudkpomvifcr9ivg3ke5g0s29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

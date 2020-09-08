@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8EC86"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8E8E7"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_camera_button"
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="35dp"
+                android:layout_weight="5"
+                android:background="#F3D1A1"
+                android:text="버섯 사진 찍기" />
+
+            <ImageView
+                android:id="@+id/main_imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="35dp"
+                android:layout_weight="1"
+                android:background="#F3D1A1"
+                app:srcCompat="@drawable/camera" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_kinds_button"
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#F1E896"
+                android:text="버섯 퀴즈" />
+
+            <ImageView
+                android:id="@+id/main_imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#F1E896"
+                app:srcCompat="@drawable/mush" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_map_button"
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#C8DFAD"
+                android:text="버섯 지도" />
+
+            <ImageView
+                android:id="@+id/main_imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#C8DFAD"
+                app:srcCompat="@drawable/map" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_instruction_button"
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#BFDEF6"
+                android:text="어플 사용법" />
+
+            <ImageView
+                android:id="@+id/main_imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#BFDEF6"
+                app:srcCompat="@drawable/ques" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8E8E7"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_settings_button"
+                android:layout_width="310dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="#E5CAEA"
+                android:text="앱 설정" />
+
+            <ImageView
+                android:id="@+id/main_imageView5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#E5CAEA"
+                app:srcCompat="@drawable/gear" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="☠버섯복용으로 인한 문제가 생길 시 \n일절 책임을 지지 않습니다.☠\n☠정확한 버섯 진단은 전문가와 함께 하세요.☠"
+            android:textColor="#FF0000"
+            android:textSize="20dp" />
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#BFDEF6"
+            android:orientation="vertical"
+            >
+
+            <!--- '어플 사용법'에 대한 코드 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#BFDEF6"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/first"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+
+                    android:gravity="center"
+                    android:text="어플 사용법"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/ques" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:id="@+id/ins_instruction1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <!--- '버섯 사진 찍기'에 대한 코드 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F3D1A1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3D1A1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/second"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+
+                    android:gravity="center"
+                    android:text="버섯 사진 찍기"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/camera" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:id="@+id/ins_camera1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/camera1" />
+
+                <TextView
+                    android:id="@+id/ins_camera2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/camera2" />
+
+                <TextView
+                    android:id="@+id/ins_camera3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/camera3" />
+
+                <TextView
+                    android:id="@+id/ins_camera4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/camera4" />
+
+                <TextView
+                    android:id="@+id/ins_camera5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <!--- '버섯 퀴즈'에 대한 코드 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1E896"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F1E896"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/third"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:text="버섯 퀴즈"
+                    android:textColor="#000000"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/mush" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:id="@+id/ins_quiz1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/quiz1" />
+
+                <TextView
+                    android:id="@+id/ins_quiz2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--- '버섯 지도'에 대한 코드 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C8DFAD"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C8DFAD"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fourth"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:text="버섯 지도"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/map"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:id="@+id/ins_map1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/map1" />
+
+                <TextView
+                    android:id="@+id/ins_map2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <!--- '앱 설정'에 대한 코드 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E5CAEA"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E5CAEA"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fifth"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="5"
+                    android:gravity="center"
+                    android:text="앱 설정"
+                    android:textColor="#000000"
+                    />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/gear" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+
+                <TextView
+                    android:id="@+id/ins_setting1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/setting1" />
+
+                <TextView
+                    android:id="@+id/ins_setting2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/setting2" />
+
+                <TextView
+                    android:id="@+id/ins_setting3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#04115A" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

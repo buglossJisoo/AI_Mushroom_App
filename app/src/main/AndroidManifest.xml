@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.tensor2">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SettingsActivity"
+            android:label="앱 설정"
+            >
+        </activity>
+        <activity
+            android:name=".SubActivity"
+            android:label="AI버섯어플 이용 동의 안내">
+
+        </activity>
+
+        <activity
+            android:name=".InstructionActivity"
+            android:label="어플 사용법" >
+        </activity>
+        <activity android:name=".QuizMushActivity" /> <!-- 찍은 사진 저장할려면 필요 - 추가하기 -->
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/file_paths" /> <!-- 찍은 사진 저장할려면 필요 - 추가하기 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.android.tensor2.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDIl5EbQCiUvQZmG99IdrXbbs2VCulsSco" />
+
+        <activity
+            android:name=".MapActivity"
+            android:label="버섯 지도" >
+        </activity>
+        <activity
+            android:name=".CameraMushActivity"
+            android:label="AI 버섯 분류" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+            <!-- intent-filter위치 SplashActivity로 옮기기 -->
+        </activity>
+    </application>
+
+</manifest>
