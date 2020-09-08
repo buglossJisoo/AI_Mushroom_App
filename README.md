@@ -6,7 +6,7 @@
 
 
 
-<img src="(https://user-images.githubusercontent.com/70942492/92481858-e4853880-f221-11ea-9f0c-566a2964399a.png" width="40%">
+<img src="./desktop/mush_splashact" width="40%">
 
 ### 1. MainActivity
 
