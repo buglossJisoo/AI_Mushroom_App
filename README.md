@@ -12,12 +12,11 @@
 
 ### 2. CameraMushActivity + ProductDBHelper
 
+<img src = "https://user-images.githubusercontent.com/70942492/92488748-eb17ae00-f229-11ea-945d-ffbdcded7b14.PNG" width="50%" height="50%">
+
 If you click this button, CameraMushActivity can be shown below.
 
-![mush_camerabtn](https://user-images.githubusercontent.com/70942492/92483966-68402480-f224-11ea-800c-11af64c7a491.PNG)
-
-![mush_camera](https://user-images.githubusercontent.com/70942492/92485817-5f505280-f226-11ea-84f5-b7df0c30df27.PNG)
-
+<img src = "https://user-images.githubusercontent.com/70942492/92488713-dfc48280-f229-11ea-88f4-7d5f83525fc2.PNG" width="50%" height="50%">
 
 ### 3. QuizMushActivity
 
