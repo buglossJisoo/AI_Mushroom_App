@@ -6,8 +6,7 @@
 
 <img src = "https://user-images.githubusercontent.com/70942492/92484959-4e531180-f225-11ea-8aa8-88ae3cf8282d.png" width="50%" height="50%">
 
-### 1. MainActivity has 5 buttons
-
+### 1. MainActivity 
 #### MainActivity is comprised of five buttons.
 
 * Button 1. Take the photo of mushroom
