@@ -39,7 +39,7 @@ If you click this button, CameraMushActivity can be shown below.
 #### App will work and be shown mushroom's information below the button after you select or take the photo(mushroom).
 
 * We are using the movilenetV2 model for tensorflow-imageClassification with Colab using Google Gpu.
-* ProductDBHelper is about DB for SQLite.(Mushroom DB has name, symptoms, type of mushrooms and its similar mushrooms's name.)
+* ProductDBHelper is about DB for SQLite.(Mushroom DB has name, symptoms, types of mushrooms and its similar mushrooms's name.)
 * We convert .h5 to .pb to .tflite and quatize this tflite file to NEW quantizied .tflite.(NEW quantizied tflite is run on Android.)
 
 
