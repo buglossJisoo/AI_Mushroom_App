@@ -4,7 +4,9 @@
 
 ### 0. SplashActivity
 
-<img src = "https://user-images.githubusercontent.com/70942492/92484959-4e531180-f225-11ea-8aa8-88ae3cf8282d.png" width="50%" height="50%">
+<img src = "https://user-images.githubusercontent.com/70942492/92484959-4e531180-f225-11ea-8aa8-88ae3cf8282d.png" width="20%" height="20%">
+
+
 
 ### 1. MainActivity (+ SubActivity)
 #### MainActivity is comprised of five buttons.
@@ -17,15 +19,17 @@
 
 * SubActivity is the notice about "AI Mushroom App".
 
-<img src = "https://user-images.githubusercontent.com/70942492/92482213-53fb2800-f222-11ea-8af9-e4c211962b23.png" width="50%" height="50%">
+<img src = "https://user-images.githubusercontent.com/70942492/92482213-53fb2800-f222-11ea-8af9-e4c211962b23.png" width="20%" height="20%">
+
+
 
 ### 2. CameraMushActivity (+ ProductDBHelper + classifier.imageClassifier)
 
-<img src = "https://user-images.githubusercontent.com/70942492/92488748-eb17ae00-f229-11ea-945d-ffbdcded7b14.PNG" width="50%" height="50%">
+<img src = "https://user-images.githubusercontent.com/70942492/92488748-eb17ae00-f229-11ea-945d-ffbdcded7b14.PNG" width="20%" height="20%">
 
 If you click this button, CameraMushActivity can be shown below.
 
-<img src = "https://user-images.githubusercontent.com/70942492/92488713-dfc48280-f229-11ea-88f4-7d5f83525fc2.PNG" width="50%" height="50%">
+<img src = "https://user-images.githubusercontent.com/70942492/92488713-dfc48280-f229-11ea-88f4-7d5f83525fc2.PNG" width="20%" height="20%">
 
 If you click "사진 업로드(Upload the photo)", there's two options you can choose.
 
@@ -38,6 +42,8 @@ App will work and be shown mushroom's information below the button after you sel
 * We are using the movilenetV2 model for tensorflow-imageClassification with Colab using Google Gpu.
 * ProductDBHelper is about DB for SQLite.(Mushroom DB has name, symptoms, type of mushrooms and its similar mushrooms's name.)
 * We convert .h5 to .pb to .tflite and quatize this tflite file to NEW quantizied .tflite.(NEW quantizied tflite is run on Android.)
+
+
 
 ### 3. QuizMushActivity
 
@@ -53,6 +59,9 @@ You can keep taking mushroom quiz even if your answer is wrong.
 
 * O icon means True, X icon means False.
 
+
+
+
 ### 4. MapActivity
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486003-9292e180-f226-11ea-987f-f06de25c00c2.PNG" width="50%" height="50%">
@@ -65,6 +74,9 @@ Your location is marked on this map with rec circle icon.
 
 Loaction of photo taken using this app will be marked with red gps icon.(NOT COMPLETE YET)
 
+
+
+
 ### 5. InstructionActivity
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486095-ae968300-f226-11ea-9e0a-54cd47f7cb35.PNG" width="50%" height="50%">
@@ -72,6 +84,9 @@ Loaction of photo taken using this app will be marked with red gps icon.(NOT COM
 If you click this button, InstructionActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486142-b6eebe00-f226-11ea-8174-38bbdefc7d3e.PNG" width="50%" height="50%">
+
+
+
 
 ### 6. SettingsActivity
 
