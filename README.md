@@ -16,7 +16,6 @@
 * Button 3. Korea Mushroom Map
 * Button 4. User Guide
 * Button 5. Settings
-
 * SubActivity is the notice about "AI Mushroom App".
 
 <img src = "https://user-images.githubusercontent.com/70942492/92482213-53fb2800-f222-11ea-8af9-e4c211962b23.png" width="20%" height="20%">
@@ -31,13 +30,13 @@ If you click this button, CameraMushActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92488713-dfc48280-f229-11ea-88f4-7d5f83525fc2.PNG" width="20%" height="20%">
 
-If you click "사진 업로드(Upload the photo)", there's two options you can choose.
+#### If you click "사진 업로드(Upload the photo)", there's two options you can choose.
 
-First, "사진 촬영(Take the photo)" button is literally to take the mushroom photo.
+#### First, "사진 촬영(Take the photo)" button is literally to take the mushroom photo.
 
-Second, "앨범 선택(Select album)" button is to select photo from your albums.
+#### Second, "앨범 선택(Select album)" button is to select photo from your albums.
  
-App will work and be shown mushroom's information below the button after you select or take the photo(mushroom).
+#### App will work and be shown mushroom's information below the button after you select or take the photo(mushroom).
 
 * We are using the movilenetV2 model for tensorflow-imageClassification with Colab using Google Gpu.
 * ProductDBHelper is about DB for SQLite.(Mushroom DB has name, symptoms, type of mushrooms and its similar mushrooms's name.)
@@ -53,9 +52,9 @@ If you click this button, QuizMushActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92485925-7db64e00-f226-11ea-9fa7-e1a3c1b26d01.PNG" width="20%" height="20%">
 
-There's five quizes about mushrooms.
+#### There's five quizes about mushrooms.
 
-You can keep taking mushroom quiz even if your answer is wrong.
+#### You can keep taking mushroom quiz even if your answer is wrong.
 
 * O icon means True, X icon means False.
 
@@ -70,9 +69,9 @@ If you click this button, MapActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486020-9888c280-f226-11ea-9ad7-2828e55293ab.png" width="20%" height="20%">
 
-Your location is marked on this map with rec circle icon. 
+#### Your location is marked on this map with rec circle icon. 
 
-Loaction of photo taken using this app will be marked with red gps icon.(NOT COMPLETE YET)
+#### Loaction of photo taken using this app will be marked with red gps icon.(NOT COMPLETE YET)
 
 
 
@@ -85,7 +84,7 @@ If you click this button, InstructionActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486142-b6eebe00-f226-11ea-8174-38bbdefc7d3e.PNG" width="20%" height="20%">
 
-This activity is instruction of AI Mushroom App for beginners.
+#### This activity is instruction of AI Mushroom App for beginners.
 
 
 
@@ -97,9 +96,9 @@ If you click this button, SettingsActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486211-c968f780-f226-11ea-9f0d-533bd6f96b5a.PNG" width="20%" height="20%">
 
-This activity has authorization for using camera, album, location.
+#### This activity has authorization for using camera, album, location.
 
-You can control permission of these items and font size on app. 
+#### You can control permission of these items and font size on app. 
 
 
 
