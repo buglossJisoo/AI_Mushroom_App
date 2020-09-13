@@ -85,6 +85,7 @@ If you click this button, InstructionActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486142-b6eebe00-f226-11ea-8174-38bbdefc7d3e.PNG" width="20%" height="20%">
 
+This activity is instruction of AI Mushroom App for beginners.
 
 
 
@@ -95,6 +96,11 @@ If you click this button, InstructionActivity can be shown below.
 If you click this button, SettingsActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486211-c968f780-f226-11ea-9f0d-533bd6f96b5a.PNG" width="20%" height="20%">
+
+This activity has authorization for using camera, album, location.
+
+You can control permission of these items and font size on app. 
+
 
 
 
