@@ -27,8 +27,15 @@ If you click this button, CameraMushActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92488713-dfc48280-f229-11ea-88f4-7d5f83525fc2.PNG" width="50%" height="50%">
 
+If you click "사진 업로드(Upload the photo)", there's two options you can choose.
+First, "사진 촬영(Take the photo)" button is literally to take the mushroom photo.
+Second, "앨범 선택(Select album)" button is to select photo from your albums.
+ 
+App will work and be shown mushroom's information below the button after you select or take the photo(mushroom).
+
 * We are using the movilenetV2 model for tensorflow-imageClassification with Colab using Google Gpu.
-* 
+* ProductDBHelper is about DB for SQLite.(Mushroom DB has name, symptoms, type of mushrooms and its similar mushrooms's name.)
+* We convert .h5 to .pb to .tflite and quatize this tflite file to NEW quantizied .tflite.(NEW quantizied tflite is run on Android.)
 
 ### 3. QuizMushActivity
 
@@ -37,6 +44,8 @@ If you click this button, CameraMushActivity can be shown below.
 If you click this button, QuizMushActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92485925-7db64e00-f226-11ea-9fa7-e1a3c1b26d01.PNG" width="50%" height="50%">
+
+
 
 ### 4. MapActivity
 
