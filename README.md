@@ -40,7 +40,7 @@ If you click this button, CameraMushActivity can be shown below.
 
 * We are using the movilenetV2 model for tensorflow-imageClassification with Colab using Google Gpu.
 * ProductDBHelper is about DB for SQLite.(Mushroom DB has name, symptoms, types of mushrooms and its similar mushrooms's name.)
-* We convert .h5 to .pb to .tflite and quatize this tflite file to NEW quantizied .tflite.(NEW quantizied tflite is run on Android.)
+* We convert .h5 to .pb to .tflite and quantize this tflite file to NEW quantizied .tflite.(NEW quantizied tflite is run on Android.)
 
 
 
