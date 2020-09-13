@@ -28,7 +28,9 @@ If you click this button, CameraMushActivity can be shown below.
 <img src = "https://user-images.githubusercontent.com/70942492/92488713-dfc48280-f229-11ea-88f4-7d5f83525fc2.PNG" width="50%" height="50%">
 
 If you click "사진 업로드(Upload the photo)", there's two options you can choose.
+
 First, "사진 촬영(Take the photo)" button is literally to take the mushroom photo.
+
 Second, "앨범 선택(Select album)" button is to select photo from your albums.
  
 App will work and be shown mushroom's information below the button after you select or take the photo(mushroom).
@@ -45,7 +47,11 @@ If you click this button, QuizMushActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92485925-7db64e00-f226-11ea-9fa7-e1a3c1b26d01.PNG" width="50%" height="50%">
 
+There's five quizes about mushrooms.
 
+You can keep taking mushroom quiz even if your answer is wrong.
+
+* O icon means True, X icon means False.
 
 ### 4. MapActivity
 
@@ -54,6 +60,10 @@ If you click this button, QuizMushActivity can be shown below.
 If you click this button, MapActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486020-9888c280-f226-11ea-9ad7-2828e55293ab.png" width="50%" height="50%">
+
+Your location is marked on this map with rec circle icon. 
+
+Loaction of photo taken using this app will be marked with red gps icon.(NOT COMPLETE YET)
 
 ### 5. InstructionActivity
 
