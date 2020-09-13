@@ -56,7 +56,8 @@ If you click this button, QuizMushActivity can be shown below.
 
 #### You can keep taking mushroom quiz even if your answer is wrong.
 
-* O icon means True, X icon means False.
+* O icon means True
+* X icon means False.
 
 
 
