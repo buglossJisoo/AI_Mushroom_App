@@ -57,3 +57,6 @@ If you click this button, SettingsActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486211-c968f780-f226-11ea-9f0d-533bd6f96b5a.PNG" width="50%" height="50%">
 
+
+
+Copyrightⓒ2020 AI Mushroom team All rights reserved.
