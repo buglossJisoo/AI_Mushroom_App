@@ -72,7 +72,7 @@ If you click this button, MapActivity can be shown below.
 
 #### Your location is marked on this map with rec circle icon. 
 
-#### Loaction of photo taken using this app will be marked with red gps icon.(NOT COMPLETE YET)
+#### Loaction of photo taken by this app will be marked with red gps icon.(NOT COMPLETE YET)
 
 
 
