@@ -44,7 +44,7 @@ If you click this button, CameraMushActivity can be shown below.
 
 
 
-### 3. QuizMushActivity
+### 3. QuizMushActivity (+ info.First~FifthFragment + InfoPagerAdapter)
 
 <img src = "https://user-images.githubusercontent.com/70942492/92485905-77c06d00-f226-11ea-9b90-152b7ff4cee2.PNG" width="20%" height="20%">
 
