@@ -70,7 +70,7 @@ If you click this button, MapActivity can be shown below.
 
 <img src = "https://user-images.githubusercontent.com/70942492/92486020-9888c280-f226-11ea-9ad7-2828e55293ab.png" width="20%" height="20%">
 
-#### Your location is marked on this map with rec circle icon. 
+#### Your location is marked on this map with red circle icon. 
 
 #### Loaction of photo taken by this app will be marked with red gps icon.(NOT COMPLETE YET)
 
