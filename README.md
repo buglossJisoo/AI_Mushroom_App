@@ -104,4 +104,4 @@ If you click this button, SettingsActivity can be shown below.
 
 
 
-Copyrightⓒ2020 AI Mushroom team All rights reserved.
+Copyrightⓒ2020 buglossJisoo, khw11044, Soyoung-Chang, yunjeongyong All rights reserved.
